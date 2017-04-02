@@ -1,3 +1,65 @@
+# Usage
+
+## Folder Structure
+This boilerplate works based on this directory structure
+```
+.
+├── app
+|   ├── components/
+|   ├── pages/
+|   ├── app.js
+|   └── app.scss
+├── assets
+|   └── i/
+├── data/
+├── dist/
+├── .gitignore
+├── index.html
+├── package.json
+└── README.md
+```
+
+## Requirements
+1. [git](https://git-scm.com/)
+2. [node](https://nodejs.org/en/)
+
+## Downloads
+get this boilerplate through git
+```bash
+git clone https://github.com/mohhasbias/sparify target-directory
+```
+
+## Dependencies
+before using this boilerplate, install all dependencies using npm.
+```bash
+npm install
+```
+
+## Development
+run dev script to start development
+```bash
+npm run dev
+```
+it will start local http server then open a browser. It will also watch for file changes and then reload the browser accordingly.
+
+## Deployment
+run build script to save ```bundle.js``` to ```dist``` directory.
+
+```bash
+npm run build
+```
+
+then deploy using your favourite tool or try [dploy](http://lucasmotta.github.io/dploy/).
+
+## Supports
+1. Modular javascript (```require```) using [browserify](http://browserify.org/)
+2. SCSS/SASS (```require('style.css')```) using [scssify](https://github.com/cody-greene/scssify)
+
+# Advanced Usage
+
+## Web Font
+use [fontfaceobserver](https://fontfaceobserver.com/) for loading fonts from [Google Fonts](http://www.google.com/fonts), [Typekit](http://typekit.com/), [Fonts.com](https://fonts.com/), and [Webtype](http://webtype.com/)
+
 # Features
 ## client side routing
 client side routing is provided by [page.js](https://visionmedia.github.io/page.js/)
@@ -64,50 +126,3 @@ state management is provided by [redux](http://redux.js.org/). Originally design
 ## Modular Javascript
 Javascript modularity is provided by [browserify](http://browserify.org/). Which allow the use of ```require()```. It works by compiling a javascript entry file into a javascript bundle file.
 
-# Usage
-
-## Folder Structure
-This boilerplate works based on this directory structure
-```
-.
-├── app
-|   ├── components
-|   ├── pages
-|   ├── app.js
-|   └── app.scss
-├── assets
-|   └── i
-├── data
-├── dist
-├── .gitignore
-├── index.html
-├── package.json
-└── README.md
-```
-
-## Requirements
-before using this boilerplate, install all dependencies using npm.
-```bash
-npm install
-```
-
-## Development
-run dev script to start development
-```bash
-npm run dev
-```
-it will start local http server then open a browser. It will also watch for file changes and then reload the browser accordingly.
-
-## Deployment
-run build script to save ```bundle.js``` to ```dist``` directory.
-
-```bash
-npm run build
-```
-
-then deploy using your favourite tool or try [dploy](http://lucasmotta.github.io/dploy/).
-
-# Advanced Usage
-
-## Web Font
-use [fontfaceobserver](https://fontfaceobserver.com/) for loading fonts from [Google Fonts](http://www.google.com/fonts), [Typekit](http://typekit.com/), [Fonts.com](https://fonts.com/), and [Webtype](http://webtype.com/)
