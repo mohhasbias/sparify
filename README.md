@@ -20,13 +20,17 @@ This boilerplate works based on this directory structure
 ```
 
 ## Requirements
-1. [git](https://git-scm.com/)
-2. [node](https://nodejs.org/en/)
+Make sure ```npm``` is installed on the system.
+```bash
+npm --version
+```
+npm can be acquired by installing [node](https://nodejs.org/en/).
 
 ## Downloads
-get this boilerplate through git
+Download this boilerplate using ```clone or download``` button.
+or download it through terminal using this command
 ```bash
-git clone https://github.com/mohhasbias/sparify target-directory
+curl -O https://github.com/mohhasbias/sparify/archive/master.zip
 ```
 
 ## Dependencies
@@ -53,7 +57,7 @@ then deploy using your favourite tool or try [dploy](http://lucasmotta.github.io
 
 ## Supports
 1. Modular javascript (```require```) using [browserify](http://browserify.org/)
-2. SCSS/SASS (```require('style.css')```) using [scssify](https://github.com/cody-greene/scssify)
+2. Cssnext (```require('style.css')```) using [postcss-cssnext](http://cssnext.io/)
 
 # Advanced Usage
 
